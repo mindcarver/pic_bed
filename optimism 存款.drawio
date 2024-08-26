@@ -89,7 +89,36 @@
           <mxGeometry x="775" y="519" width="144" height="36" as="geometry" />
         </mxCell>
         <mxCell id="e5JmHoY65v8U-HojpaXv-31" value="&lt;span&gt;L1 component&lt;/span&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="176" y="108" width="773" height="574" as="geometry" />
+          <mxGeometry x="174" y="127.5" width="759" height="573" as="geometry" />
+        </mxCell>
+        <mxCell id="e5JmHoY65v8U-HojpaXv-34" value="Sequencer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="992" y="200" width="98" height="428" as="geometry" />
+        </mxCell>
+        <mxCell id="e5JmHoY65v8U-HojpaXv-35" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="274" width="132" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="e5JmHoY65v8U-HojpaXv-36" value="listen&amp;nbsp;&lt;div&gt;TransactionDeposit&lt;/div&gt;&lt;div&gt;&amp;nbsp;event&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1039" y="308" width="121" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e5JmHoY65v8U-HojpaXv-37" value="L2StandardBridge" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1224" y="198" width="115" height="444" as="geometry" />
+        </mxCell>
+        <mxCell id="e5JmHoY65v8U-HojpaXv-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="e5JmHoY65v8U-HojpaXv-37">
+          <mxGeometry x="55" y="287" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e5JmHoY65v8U-HojpaXv-40" value="relayMessage" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="e5JmHoY65v8U-HojpaXv-39" parent="e5JmHoY65v8U-HojpaXv-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="267" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5JmHoY65v8U-HojpaXv-38" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="e5JmHoY65v8U-HojpaXv-37">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1042" y="477" as="sourcePoint" />
+            <mxPoint x="1122" y="477" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
