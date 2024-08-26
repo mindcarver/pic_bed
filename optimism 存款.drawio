@@ -63,7 +63,7 @@
         <mxCell id="e5JmHoY65v8U-HojpaXv-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="509" y="487" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="e5JmHoY65v8U-HojpaXv-20" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;_sendMessage&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="e5JmHoY65v8U-HojpaXv-19" parent="1">
+        <mxCell id="e5JmHoY65v8U-HojpaXv-20" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;_sendMessage(L2StandardBridge,L2CrossDomainMessenger)&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="e5JmHoY65v8U-HojpaXv-19" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="514" y="467" as="sourcePoint" />
             <Array as="points">
@@ -77,13 +77,16 @@
         <mxCell id="e5JmHoY65v8U-HojpaXv-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="e5JmHoY65v8U-HojpaXv-23">
           <mxGeometry x="50" y="339" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="e5JmHoY65v8U-HojpaXv-29" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;_depositTransaction&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="e5JmHoY65v8U-HojpaXv-28" parent="e5JmHoY65v8U-HojpaXv-23">
+        <mxCell id="e5JmHoY65v8U-HojpaXv-29" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="e5JmHoY65v8U-HojpaXv-28" parent="e5JmHoY65v8U-HojpaXv-23">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="319" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="85" y="349" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="e5JmHoY65v8U-HojpaXv-30" value="TransactionDeposited" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="519" width="144" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
